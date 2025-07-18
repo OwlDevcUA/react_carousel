@@ -1,0 +1,1 @@
+.Settings{display:flex;flex-direction:column;gap:10px}.Settings__input{width:50px;margin-left:5px}.Carousel{display:flex;align-items:center}.Carousel__container{overflow:hidden;margin:20px}.Carousel__list{display:flex;flex-direction:row;padding:0}.Carousel__button{height:20px}.Carousel__button:disabled{cursor:not-allowed;background-color:gray;opacity:.5}
