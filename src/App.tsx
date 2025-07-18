@@ -63,10 +63,10 @@ class App extends React.Component<{}, State> {
               min={1}
             />
           </label>
-          <label htmlFor="frameSizeId" className="Settings__label">
+          <label htmlFor="frameId" className="Settings__label">
             Frame Size:
             <input
-              id="frameSizeId"
+              id="frameId"
               className="Settings__input"
               type="number"
               value={frameSize}
