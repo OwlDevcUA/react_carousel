@@ -8,7 +8,6 @@ type Props = {
   frameSize: number;
   itemWidth: number;
   animationDuration: number;
-  infinite: boolean;
 };
 
 const Carousel: React.FC<Props> = ({

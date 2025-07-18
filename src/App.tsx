@@ -8,7 +8,6 @@ interface State {
   frameSize: number;
   itemWidth: number;
   animationDuration: number;
-  infinite: boolean;
 }
 
 class App extends React.Component<{}, State> {
@@ -29,11 +28,10 @@ class App extends React.Component<{}, State> {
     frameSize: 3,
     itemWidth: 130,
     animationDuration: 1000,
-    infinite: false,
   };
 
   render() {
-    const { images, step, frameSize, itemWidth, animationDuration, infinite } =
+    const { images, step, frameSize, itemWidth, animationDuration } =
       this.state;
 
     return (
@@ -47,7 +45,6 @@ class App extends React.Component<{}, State> {
           frameSize={frameSize}
           itemWidth={itemWidth}
           animationDuration={animationDuration}
-          infinite={infinite}
         />
 
         <form className="Settings">
